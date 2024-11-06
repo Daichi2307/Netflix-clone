@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Netflix Sign In</title>
+    <style>
+      body {
+        background-image: url("https://i.ibb.co/x2sFBwf/how-can-someone-make-this-background-with-html-and-css-i-v0-zjgs096khv591.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: "Arial", sans-serif;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+
+      .container {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+        width: 400px;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        color: #333;
+        background-color: #fff;
+      }
+
+      .button {
+        padding: 10px 20px;
+        color: white;
+        background-color: #e50914;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .button:hover {
+        background-color: #b00710;
+      }
+
+      .or {
+        margin: 15px 0;
+        font-size: 0.8rem;
+        color: #ccc;
+      }
+      .html .code {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        color: #333;
+        background-color: #fff;
+      }
+
+      .footer {
+        margin-top: 20px;
+        font-size: 0.9rem;
+        color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sign In</h1>
+      <form>
+        <input type="text" placeholder="Email or phone number" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Sign In</button>
+        <div class="or">OR</div>
+        <input type="text" class="code" placeholder="Enter code" required />
+      </form>
+      <div class="footer">
+        <p>Need help?</p>
+      </div>
+    </div>
+  </body>
+</html>
